@@ -1,0 +1,10 @@
+1)I used the echo command to create a new file named sample_data.txt containing a simple text string to use as the source for creating links.
+2)I used the ln command (without flags) to create a hard link named sample_hard.txt, which points directly to the same physical data on the disk as the original file.
+3)I used the ln command with the -s flag to create a symbolic link named sample_soft.txt, which acts as a shortcut pointing to the filename of the original file rather than its data.
+4)I used ls with the -i flag to display the inode numbers, confirming that the hard link shares the same inode as the original, while the symbolic link has a unique inode.
+5)sample_data.txt and sample_hard.txt share the same inode number. This is because a hard link is essentially a second name for the exact same physical data blocks on the hard drive, whereas a soft link is a separate file that simply points to the path of the original.
+6)I used the stat command to view detailed metadata, including the file size, permissions, access timestamps, and inode number.
+7)I used the du (disk usage) command with -h (human-readable) to see the size of directories within my home folder.
+8)I used ls with the -lh flags to list all files in the home directory with their sizes displayed in a human-readable format (e.g., KB, MB).
+9)I deleted the symbolic link using rm and then used cat to verify that sample_data.txt remained unaffected and readable, proving that deleting a link does not delete the original data.
+10)I ran df -h to show the available disk space on all mounted filesystems and du -sh ~ to show the total space occupied specifically by my home directory.

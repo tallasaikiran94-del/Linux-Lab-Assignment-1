@@ -1,0 +1,10 @@
+1)I used the mkdir command to create a new directory named 'documents' in my home directory to serve as a workspace for project files.
+2)I used cd to change my working directory to 'documents' and then used the touch command to create an empty file named 'plan.txt'.
+3)I used echo combined with the redirection operator (>) to write a sample sentence into 'plan.txt' without opening a text editor.
+4)I used ls -l (long listing) to inspect the file's metadata, confirming that my username appears as the owner and checking the read/write permissions.
+5)I used the cp command to create an exact duplicate of 'plan.txt' named 'plan_copy.txt' in the same directory.
+6)I first navigated back to the home directory (cd ..), then used the mv command to rename the 'documents' directory to 'project_documents'.
+7)I used mkdir to create a new subdirectory named 'archive' inside the 'project_documents' folder to better organize older files.
+8)I used the mv command to move 'plan_copy.txt' from the main project folder into the newly created 'archive' subdirectory.
+9)I used ls with the -R (recursive) flag to display the full structure of 'project_documents', showing contents of both the main folder and the 'archive' subfolder simultaneously.
+10)I used the readlink -f command to resolve and print the full canonical absolute path of the 'plan_copy.txt' file.

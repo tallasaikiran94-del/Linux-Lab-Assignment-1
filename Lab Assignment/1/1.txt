@@ -1,0 +1,20 @@
+1) I used the id command to display my current user identity (UID), group identity (GID), and group memberships to verify my account details.
+
+2) I used pwd to confirm my current working directory and ls -l to list all files with detailed permissions and metadata.
+
+3) I used the echo command combined with the redirection operator (>) to write the specific string into a new file named user_info.txt.
+
+4) I used the wc (word count) command with the -m flag to count and display the number of characters inside user_info.txt.
+
+5) I accessed the manual page for mkdir. One useful option I found is -p (parents), which allows the creation of parent directories if they do not already exist (e.g., mkdir -p folder/subfolder).
+
+6) I listed the contents of the home directory (~) using ls and piped (|) the output to the sort command to ensure the list was arranged alphabetically.
+
+7) I used the grep command to search for the specific string "admin" within the log.txt file and displayed only the lines containing that text.
+
+8) I used the uname command with the -r flag to display the specific release version of the Linux kernel currently running on the server.
+
+9) I used the ping command (limited to 4 packets with -c 4) to test network connectivity to Google's server by sending ICMP echo requests and receiving replies.
+
+10)I used the uptime command to check how long the system has been running. The output displays the current time, the system duration (uptime), the number of logged-in users, and the load averages for the last 1, 5, and 15 minutes.
+
